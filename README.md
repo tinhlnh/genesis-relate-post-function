@@ -1,3 +1,4 @@
+<?php
 add_image_size( 'related', 120, 100, true );
 //for XHTML themes
 add_action( 'genesis_after_post_content', 'child_related_posts' );
@@ -129,3 +130,5 @@ function child_related_posts() {
 
     }
 }
+
+?>php
